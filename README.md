@@ -1,93 +1,49 @@
-# publications-attop
 
+# ATTOP publications
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
+## Photodissociation of Cr(CO)4bpy: a non-adiabatic dynamics investigation
+B. Ciborowski and M. Vacher  
+J. Comput. Chem. 46, e70021 (2025)  
+[https://doi.org/10.1002/jcc.70021](https://doi.org/10.1002/jcc.70021)  
+[ArXiv](https://doi.org/10.48550/arXiv.2501.07322) and [HAL](https://hal.science/hal-04892446) links.  
 
-## Getting started
+Carbonyl complexes of d6 metals with an α-diimine ligand exhibit both emission and ligand-selective photodissociation from MLCT states. Studying this photodissociative mechanism is challenging for experimental approaches due to an ultrafast femtosecond timescale and spectral overlap of multiple photoproducts. The photochemistry of a prototypical system Cr(CO)4bpy is investigated with non-adiabatic dynamic simulations. Obtained 86 fs lifetime of the bright S3 state and 13% quantum yield are in good agreement with experimental data. The present simulations suggest a ballistic mechanism of photodissociation, which is irrespective of the occupied electronic state. This is in contrast to the previously established mechanism of competitive intersystem crossing and dissociation. Selectivity of axial photodissociation is shown to be caused by the absence of an avoided crossing in the equatorial direction.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## Signature of attochemical quantum interference upon ionization and excitation of an electronic wavepacket in fluorobenzene
+A. Ferté, D. Austin, A. A. Johnson, F. McGrath, J. P. Malhado, J. P. Marangos and M. Vacher
+Phys. Rev. Lett. 133, 203201 (2024)
+[https://doi.org/10.1103/PhysRevLett.133.203201](https://doi.org/10.1103/PhysRevLett.133.203201)
+[ArXiv](https://doi.org/10.48550/arXiv.2309.08269) and [HAL](https://hal.science/hal-04892444v1) links.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+Ultrashort pulses can excite or ionize molecules and populate coherent electronic wave packets, inducing complex dynamics. In this Letter, we simulate the coupled electron-nuclear dynamics upon ionization to different electronic wave packets of (deuterated) benzene and fluoro-benzene molecules, quantum mechanically and in full dimensionality. In fluoro-benzene, the calculations unravel both interstate and intrastate quantum interferences that leave clear signatures of attochemistry and charge-directed dynamics in the shape of the autocorrelation function. The latter are in agreement with experimental high-harmonic spectroscopy measurements of benzenes and fluoro-benzene.
 
-## Add your files
+## Simulating Attochemistry: Which Dynamics Method to Use?
+T. Tran, A. Ferté and M. Vacher
+J. Phys. Chem. Lett. 15, 3646-3652 (2024)
+[https://doi.org/10.1021/acs.jpclett.4c00106](https://doi.org/10.1021/acs.jpclett.4c00106)
+[ArXiv](https://doi.org/10.48550/arXiv.2405.17276) and [HAL](https://hal.science/hal-04590060v1) links.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+Attochemistry aims to exploit the properties of coherent electronic wavepackets excited via attosecond pulses to control the formation of photoproducts. Such molecular processes can, in principle, be simulated with various nonadiabatic dynamics methods, yet the impact of the approximations underlying the methods is rarely assessed. The performances of widely used mixed quantum-classical approaches, Tully surface hopping, and classical Ehrenfest methods are evaluated against the high-accuracy DD-vMCG quantum dynamics. This comparison is conducted for the valence ionization of fluorobenzene. Analyzing the nuclear motion induced in the branching space of the nearby conical intersection, the results show that the mixed quantum-classical methods reproduce quantitatively the average motion of a quantum wavepacket when initiated on a single electronic state. However, they fail to properly capture the nuclear motion induced by an electronic wavepacket along the derivative coupling, the latter originating from the quantum electronic coherence property, key to attochemistry.
 
-```
-cd existing_repo
-git remote add origin https://gitlab.univ-nantes.fr/modes/attop/publications-attop.git
-git branch -M main
-git push -uf origin main
-```
+## Dissociation and Isomerisation Following Ionization of Ethylene: Insights from Nonadiabatic Dynamics Simulations
+L. Fransén, T. Tran, S. Nandi and M. Vacher
+J. Phys. Chem. A 128, 1457-1465 (2024)
+[https://doi.org/10.1021/acs.jpca.3c06512](https://doi.org/10.1021/acs.jpca.3c06512)
+[ArXiv](https://arxiv.org/html/2405.17266) and [HAL](https://hal.science/hal-04499942v1) links.
 
-## Integrate with your tools
+Photoionized and electronically excited ethylene C2H4+ can undergo H-loss, H2-loss, and ethylene–ethylidene isomerization, where the latter entails a hydrogen migration. Recent pioneering experiments with few-femtosecond extreme ultraviolet pulses and complementary theoretical studies have shed light on the photodynamics of this prototypical organic cation. However, no theoretical investigation based on dynamics simulations reported to date has described the mechanisms and time scales of dissociation and isomerization. Herein, we simulate the coupled electron–nuclear dynamics of ethylene following vertical ionization and electronic excitation to its four lowest-lying cationic states. The electronic structure is treated at the CASSCF level, with an active space large enough to describe bond breaking and formation. The simulations indicate that dissociation and isomerization take place mainly on the cationic ground state and allow the probing of previous hypotheses concerning the correlation between the photochemical outcome and the traversed conical intersections. The results, moreover, support the long-standing view that H2-loss may occur from the ethylidene form. However, the ethylene–ethylidene isomerization time predicted by the simulations is considerably longer than those previously inferred from indirect experimental measurements.
 
-- [ ] [Set up project integrations](https://gitlab.univ-nantes.fr/modes/attop/publications-attop/-/settings/integrations)
+## Which Electronic Structure Method to Choose in Trajectory Surface Hopping? Azomethane as a Case Study
+T. V. Papineau, D. Jacquemin and M. Vacher
+J. Phys. Chem. Lett. 15, 636-643 (2024) [https://doi.org/10.1021/acs.jpclett.3c03014](https://doi.org/10.1021/acs.jpca.3c06512)
+[ArXiv](https://arxiv.org/abs/2405.17271) and [HAL](https://hal.science/hal-04590057) links.
 
-## Collaborate with your team
+Nonadiabatic dynamics simulations have become a standard approach to explore photochemical reactions. Such simulations require underlying potential energy surfaces and couplings between them, calculated at a chosen level of theory, yet this aspect is rarely assessed. Here, in combination with the popular trajectory surface hopping dynamics method, we use a high-accuracy XMS-CASPT2 electronic structure level as a benchmark for assessing the performances of various post-Hartree–Fock methods (namely, CIS, ADC(2), CC2, and CASSCF) and exchange–correlation functionals (PBE, PBE0, and CAM-B3LYP) in a TD-DFT/TDA context, using the isomerization around a double bond as test case. Different relaxation pathways are identified, and the ability of the different methods to reproduce their relative importance and time scale is discussed. The results show that multireference electronic structure methods should be preferred, when studying nonadiabatic decay between excited and ground states. If not affordable, TD-DFT with TDA and hybrid functionals and ADC(2) are efficient alternatives but overestimate the nonradiative decay yield and thus may miss deexcitation pathways.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+## Sensitivity of Kß mainline X-ray emission to structural dynamics in iron photosensitizer
+J. Rogvall, R. Singh, M. Vacher and M. Lundberg
+Phys. Chem. Chem. Phys. 25, 10447-10459 (2023) [https://doi.org/10.1039/D2CP05671B]()
+[ArXiv](https://arxiv.org/abs/2405.15615v1) and [HAL](https://hal.science/hal-04273596) links.
 
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Photochemistry and photophysics processes involve structures far from equilibrium. In these reactions, there is often strong coupling between nuclear and electronic degrees of freedom. For first-row transition metals, Kβ X-ray emission spectroscopy (XES) is a sensitive probe of electronic structure due to the direct overlap between the valence orbitals and the 3p hole in the final state. Here the sensitivity of Kβ mainline (Kβ1,3) XES to structural dynamics is analyzed by simulating spectral changes along the excited state dynamics of an iron photosensitizer [FeII(bmip)2]2+ [bmip = 2,6-bis(3-methyl-imidazole-1-ylidine)-pyridine], using both restricted active space (RAS) multiconfigurational wavefunction theory and a one-electron orbital-energy approach in density-functional theory (1-DFT). Both methods predict a spectral blue-shift with increasing metal–ligand distance, which changes the emission intensity for any given detection energy. These results support the suggestion that the [FeII(bmip)2]2+ femtosecond Kβ XES signal shows oscillations due to coherent wavepacket dynamics. Based on the RAS results, the sensitivity to structural dynamics is twice as high for Kβ compared to Kα, with the drawback of a lower signal-to-noise ratio. Kβ sensitivity is favored by a larger spectral blue-shift with increasing metal–ligand distance and larger changes in spectral shape. Comparing the two simulations methods, 1-DFT predicts smaller energy shifts and lower sensitivity, likely due to missing final-state effects. The simulations can be used to design and interpret XES probes of non-equilibrium structures to gain mechanistic insights in photocatalysis.
