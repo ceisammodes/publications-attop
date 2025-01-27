@@ -1,5 +1,6 @@
 
 # ATTOP publications
+This work is licensed under a
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
 ## Photodissociation of Cr(CO)4bpy: a non-adiabatic dynamics investigation
